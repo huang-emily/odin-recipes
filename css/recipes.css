@@ -4,7 +4,6 @@
 
 .container{
     width: 95vw;
-    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +16,30 @@
     max-width: 600px;
 }
 
+.recipe-container img {
+    object-fit: cover;
+    height: 225px;
+    width: 100%;
+}
+
+.recipe-container h1,
 .footer-container {
     text-align: center;
+}
+
+.footer-container{
+    margin-top: 10px;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-container a:hover {
+    background-color: plum;
+}
+
+.footer-container a:visited {
+    color: black;
 }
