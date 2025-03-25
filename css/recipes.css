@@ -1,0 +1,22 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.recipe-container {
+    box-sizing: border-box;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.footer-container {
+    text-align: center;
+}

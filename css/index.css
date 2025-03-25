@@ -1,0 +1,29 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+}
+
+.container-content p {
+    margin-top: -17px;
+}
+
+.container-content ul {
+    list-style: none;
+}
+
+.container-content ul a {
+    text-decoration: none;
+}
+
+.container-content ul a:hover {
+    background-color: plum;
+}
+
+.container-content ul a:visited {
+    color: black;
+}
